@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/fondocatalogo2.jpg");
+}
+.banner {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(55px);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.banner a:first-child {
+    margin-left: 0;
+}
+.carrito {
+    display: flex;
+    align-items: center;
+}
+.compra{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+/*Zapatos*/
+
+.product {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(55px);
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 40px;
+    color: #fff;
+    display: inline-block;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    width: 150%; /* Nuevo estilo para estandarizar el tamaño */
+    max-height: 250px; /* Nuevo estilo para limitar la altura */
+    cursor: pointer;
+}
+.product img:hover{
+  transform: scale(0.9);
+}
+.precio {
+    margin-top: 10px;
+    font-weight: bold;
+}
+button{
+  width: 75%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255, 1);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  text-align: center;
+}
+button:hover{
+  background-color: rgb(255, 255, 255, 0.5);
+}
+.container{
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
